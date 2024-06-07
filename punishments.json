@@ -1,0 +1,91 @@
+{
+	"blacklisted_modifications": {
+		"reason": "Blacklisted Modifications",
+		"message": "We do not allow our players to utilize blacklisted modifications on our servers.",
+		"type": "BAN",
+		"display": "IRON_SWORD",
+		"offenses": [
+			"7d",
+			"14d",
+			"30d",
+			"perm"
+		]
+	},
+	"inappropriate_behavior": { 
+		"reason": "Inappropriate Behavior",
+		"message": "We do not allow behavior on our servers that is seen as inappropriate.",
+		"type": "BAN",
+		"display": "RED_DYE",
+		"offenses": [
+			"3d",
+			"7d",
+			"14d",
+			"30d",
+			"perm"
+		]
+	},
+	"predatory_behavior": {
+		"reason": "Predatory Behavior/Explicit Content",
+		"message": "Predatory behavior or explicit content in any form is not permitted on our servers.",
+		"type": "BAN",
+		"display": "FISHING_ROD",
+		"offenses": [
+			"perm"
+		]
+	},
+	"discrimination": {
+		"reason": "Discrimination",
+		"message": "We do not allow any discriminatory behavior on our servers, or toward other players.",
+		"type": "BAN",
+		"display": "SPIDER_EYE",
+		"offenses": [
+			"30d",
+			"60d",
+			"90d",
+			"perm"
+		]
+	},
+	"trolling": {
+		"reason": "Trolling",
+		"message": "Any form of trolling is not permitted on our servers.",
+		"type": "MUTE",
+		"display": "EGG",
+		"offenses": [
+			"12h",
+			"1d",
+			"3d",
+			"7d",
+			"14d",
+			"30d",
+			"perm"
+		]
+	},
+	"spreading_false_information": {
+		"reason": "Spreading False Information",
+		"message": "Spreading false information knowingly is not permitted on our servers.",
+		"type": "MUTE",
+		"display": "OAK_SIGN",
+		"offenses": [
+			"6h",
+			"12h",
+			"1d",
+			"7d",
+			"14d",
+			"30d",
+			"perm"
+		]
+	},
+	"general_disrespect": {
+		"reason": "General Disrespect",
+		"message": "Disrespect towards players on our servers is not permitted.",
+		"type": "MUTE",
+		"display": "MUSIC_DISC_CHIRP",
+		"offenses": [
+			"1d",
+			"7d",
+			"14d",
+			"30d",
+			"perm"
+		]
+	}
+}
