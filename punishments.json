@@ -1,5 +1,6 @@
 {
 	"blacklisted_modifications": {
+		"ordinal": 0,
 		"reason": "Blacklisted Modifications",
 		"message": "We do not allow our players to utilize blacklisted modifications on our servers.",
 		"type": "BAN",
@@ -11,7 +12,8 @@
 			"perm"
 		]
 	},
-	"inappropriate_behavior": { 
+	"inappropriate_behavior": {
+		"ordinal": 1,
 		"reason": "Inappropriate Behavior",
 		"message": "We do not allow behavior on our servers that is seen as inappropriate.",
 		"type": "BAN",
@@ -25,6 +27,7 @@
 		]
 	},
 	"predatory_behavior": {
+		"ordinal": 2,
 		"reason": "Predatory Behavior/Explicit Content",
 		"message": "Predatory behavior or explicit content in any form is not permitted on our servers.",
 		"type": "BAN",
@@ -34,6 +37,7 @@
 		]
 	},
 	"discrimination": {
+		"ordinal": 3,
 		"reason": "Discrimination",
 		"message": "We do not allow any discriminatory behavior on our servers, or toward other players.",
 		"type": "BAN",
@@ -46,6 +50,7 @@
 		]
 	},
 	"trolling": {
+		"ordinal": 4,
 		"reason": "Trolling",
 		"message": "Any form of trolling is not permitted on our servers.",
 		"type": "MUTE",
@@ -61,6 +66,7 @@
 		]
 	},
 	"spreading_false_information": {
+		"ordinal": 5,
 		"reason": "Spreading False Information",
 		"message": "Spreading false information knowingly is not permitted on our servers.",
 		"type": "MUTE",
@@ -76,6 +82,7 @@
 		]
 	},
 	"general_disrespect": {
+		"ordinal": 6,
 		"reason": "General Disrespect",
 		"message": "Disrespect towards players on our servers is not permitted.",
 		"type": "MUTE",
@@ -89,6 +96,7 @@
 		]
 	},
 	"harrassment": {
+		"ordinal": 7,
 		"reason": "Harrassment",
 		"message": "Harrassing other players/and or staff is not permitted.",
 		"type": "BAN",
@@ -101,6 +109,7 @@
 		]
 	},
 	"malicious_links": {
+		"ordinal": 8,
 		"reason": "Server Advertisement",
 		"message": "Redirecting players to external servers off our network is not permitted.",
 		"type": "BAN",
