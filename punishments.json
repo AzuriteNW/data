@@ -1,5 +1,5 @@
 {
-	"blacklisted_modifications": {
+	"Blacklisted_Mod": {
 		"ordinal": 0,
 		"reason": "Blacklisted Modifications",
 		"message": "We do not allow our players to utilize blacklisted modifications on our servers.",
@@ -12,7 +12,7 @@
 			"perm"
 		]
 	},
-	"inappropriate_behavior": {
+	"Inappropriate": {
 		"ordinal": 1,
 		"reason": "Inappropriate Behavior",
 		"message": "We do not allow behavior on our servers that is seen as inappropriate.",
@@ -26,7 +26,7 @@
 			"perm"
 		]
 	},
-	"predatory_behavior": {
+	"Predatory": {
 		"ordinal": 2,
 		"reason": "Predatory Behavior/Explicit Content",
 		"message": "Predatory behavior or explicit content in any form is not permitted on our servers.",
@@ -36,7 +36,7 @@
 			"perm"
 		]
 	},
-	"discrimination": {
+	"Discrimination": {
 		"ordinal": 3,
 		"reason": "Discrimination",
 		"message": "We do not allow any discriminatory behavior on our servers, or toward other players.",
@@ -49,7 +49,7 @@
 			"perm"
 		]
 	},
-	"trolling": {
+	"Trolling": {
 		"ordinal": 4,
 		"reason": "Trolling",
 		"message": "Any form of trolling is not permitted on our servers.",
@@ -65,7 +65,7 @@
 			"perm"
 		]
 	},
-	"spreading_false_information": {
+	"False_Info": {
 		"ordinal": 5,
 		"reason": "Spreading False Information",
 		"message": "Spreading false information knowingly is not permitted on our servers.",
@@ -81,7 +81,7 @@
 			"perm"
 		]
 	},
-	"general_disrespect": {
+	"Disrespect": {
 		"ordinal": 6,
 		"reason": "General Disrespect",
 		"message": "Disrespect towards players on our servers is not permitted.",
@@ -95,7 +95,7 @@
 			"perm"
 		]
 	},
-	"harrassment": {
+	"Harrassment": {
 		"ordinal": 7,
 		"reason": "Harrassment",
 		"message": "Harrassing other players/and or staff is not permitted.",
@@ -108,7 +108,7 @@
 			"perm"
 		]
 	},
-	"malicious_links": {
+	"Server_Ad": {
 		"ordinal": 8,
 		"reason": "Server Advertisement",
 		"message": "Redirecting players to external servers off our network is not permitted.",
@@ -121,7 +121,7 @@
 			"perm"
 		]
 	},
-	"under_13": {
+	"Under_13": {
 		"ordinal": 9,
 		"reason": "Under 13",
 		"message": "Players must be at least 13 years old to play on our servers. We do not accept appeals.",
