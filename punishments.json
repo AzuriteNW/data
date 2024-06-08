@@ -124,7 +124,7 @@
 	"under_13": {
 		"ordinal": 9,
 		"reason": "Under 13",
-		"message": "Players must be at least 13 years old to play on our servers.",
+		"message": "Players must be at least 13 years old to play on our servers. We do not accept appeals.",
 		"type": "BAN",
 		"display": "VILLAGER_SPAWN_EGG",
 		"offenses": [
