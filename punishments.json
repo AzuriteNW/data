@@ -87,5 +87,29 @@
 			"30d",
 			"perm"
 		]
+	},
+	"harrassment": {
+		"reason": "Harrassment",
+		"message": "Harrassing other players/and or staff is not permitted.",
+		"type": "BAN",
+		"display": "RED_DYE",
+		"offenses": [
+			"7d",
+			"14d",
+			"30d",
+			"perm"
+		]
+	},
+	"malicious_links": {
+		"reason": "Server Advertisement",
+		"message": "Redirecting players to external servers off our network is not permitted.",
+		"type": "BAN",
+		"display": "BOW",
+		"offenses": [
+			"7d",
+			"14d",
+			"30d",
+			"perm"
+		]
 	}
 }
