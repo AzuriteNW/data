@@ -130,15 +130,5 @@
 		"offenses": [
 			"perm"
 		]
-	},
-	"test": {
-		"ordinal": 10,
-		"reason": "Test",
-		"message": "Test punishment",
-		"type": "BAN",
-		"display": "DIAMOND",
-		"offenses": [
-			"perm"
-		]
 	}
 }
