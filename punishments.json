@@ -30,7 +30,7 @@
 		"ordinal": 2,
 		"reason": "Predatory Behavior/Explicit Content",
 		"message": "Predatory behavior or explicit content in any form is not permitted on our servers.",
-		"type": "BAN",
+		"type": "BLACKLIST",
 		"display": "CREEPER_HEAD",
 		"offenses": [
 			"perm"
