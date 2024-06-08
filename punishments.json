@@ -17,7 +17,7 @@
 		"reason": "Inappropriate Behavior",
 		"message": "We do not allow behavior on our servers that is seen as inappropriate.",
 		"type": "BAN",
-		"display": "RED_DYE",
+		"display": "REDSTONE",
 		"offenses": [
 			"3d",
 			"7d",
@@ -31,7 +31,7 @@
 		"reason": "Predatory Behavior/Explicit Content",
 		"message": "Predatory behavior or explicit content in any form is not permitted on our servers.",
 		"type": "BAN",
-		"display": "FISHING_ROD",
+		"display": "CREEPER_HEAD",
 		"offenses": [
 			"perm"
 		]
@@ -118,6 +118,16 @@
 			"7d",
 			"14d",
 			"30d",
+			"perm"
+		]
+	},
+	"under_13": {
+		"ordinal": 9,
+		"reason": "Under 13",
+		"message": "Players must be at least 13 years old to play on our servers.",
+		"type": "BAN",
+		"display": "VILLAGER_SPAWN_EGG",
+		"offenses": [
 			"perm"
 		]
 	}
