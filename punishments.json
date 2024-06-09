@@ -130,17 +130,5 @@
 		"offenses": [
 			"perm"
 		]
-	},
-	"Temp_Test": {
-      "ordinal": 9,
-      "reason": "Temp Test",
-      "message": "Temporary test punishment.",
-      "type": "MUTE",
-      "display": "CLOCK",
-      "offenses": [
-        "5s",
-        "10s",
-        "15s"
-      ]
-    }
+	}
 }
