@@ -134,7 +134,7 @@
 	"Other_Perm": {
 		"ordinal": 10,
 		"reason": "Other - Permanent",
-		"message": "Your account has been suspended. Please contact appeals for more info.",
+		"message": "Your account has been suspended. Please contact appeals for more information.",
 		"type": "BAN",
 		"display": "REDSTONE_BLOCK",
 		"requiresPermission": true,
