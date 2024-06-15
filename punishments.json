@@ -131,8 +131,21 @@
 			"perm"
 		]
 	},
-	"Other_Perm": {
+	"Abusing_Support": {
 		"ordinal": 10,
+		"reason": "Abusing Support",
+		"message": "Abusing our support system, such as creating knowingly false reports or appeals, is not allowed.",
+		"type": "BAN",
+		"display": "WRITABLE_BOOK",
+		"offenses": [
+			"7d",
+			"14d",
+			"30d",
+			"perm"
+		]
+	},
+	"Other_Perm": {
+		"ordinal": 11,
 		"reason": "Other - Permanent",
 		"message": "Your account has been suspended. Please contact appeals for more information.",
 		"type": "BAN",
