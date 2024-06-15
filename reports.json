@@ -1,0 +1,44 @@
+{
+  "unfair_advantage": {
+    "ordinal": 0,
+    "reason": "Unfair Advantage",
+    "description": "Player is using an unfair advantage, such as a hacked client.",
+    "display": "IRON_SWORD"
+  },
+  "chat_offense": {
+    "ordinal": 1,
+    "reason": "Chat Offense",
+    "description": "Player broke a chat rule, such as spamming, disrespect, discriminatory behavior, etc.",
+    "display": "WRITABLE_BOOK"
+  },
+  "advertising": {
+    "ordinal": 2,
+    "reason": "Advertising",
+    "description": "Player is advertising another server or unrelated service.",
+    "display": "ARROW"
+  },
+  "inappropriate_build": {
+    "ordinal": 3,
+    "reason": "Inappropriate Build",
+    "description": "Player created an inappropriate build, or wrote inappropriate text on a sign.",
+    "display": "CRAFTING_TABLE"
+  },
+  "inappropriate_name_skin": {
+    "ordinal": 4,
+    "reason": "Inappropriate Name/Skin",
+    "description": "Player has an inappropriate/offensive username or skin.",
+    "display": "PLAYER_HEAD"
+  },
+  "boosting": {
+    "ordinal": 5,
+    "reason": "Boosting",
+    "description": "Player is using an unintended method to boost their stats.",
+    "display": "BEACON"
+  },
+  "bugs_exploits": {
+    "ordinal": 6,
+    "reason": "Bugs/Exploits",
+    "description": "Player is using a bug or exploit to gain an unfair advantage.",
+    "display": "GLOW_INK_SAC"
+  }
+}
