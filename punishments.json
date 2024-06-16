@@ -19,10 +19,10 @@
 		"type": "BAN",
 		"display": "REDSTONE",
 		"offenses": [
-			"3d",
-			"7d",
 			"14d",
 			"30d",
+			"60d",
+			"90d",
 			"perm"
 		]
 	},
@@ -102,9 +102,9 @@
 		"type": "BAN",
 		"display": "RED_DYE",
 		"offenses": [
-			"7d",
-			"14d",
 			"30d",
+			"60d",
+			"90d",
 			"perm"
 		]
 	},
