@@ -102,9 +102,8 @@
 		"type": "BAN",
 		"display": "RED_DYE",
 		"offenses": [
+			"14dd",
 			"30d",
-			"60d",
-			"90d",
 			"perm"
 		]
 	},
