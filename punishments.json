@@ -143,6 +143,16 @@
 			"perm"
 		]
 	},
+	"DDOS_Doxing": {
+		"ordinal": 10,
+		"reason": "Threats",
+		"message": "Threatening players, whether joking or not, is not allowed on our network.",
+		"type": "BLACKLIST",
+		"display": "COMPASS",
+		"offenses": [
+			"perm"
+		]
+	},
 	"Other_Perm": {
 		"ordinal": 11,
 		"reason": "Other - Permanent",
