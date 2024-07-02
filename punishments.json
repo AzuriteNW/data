@@ -165,7 +165,7 @@
 	"Inappropriate": {
 		"ordinal": 13,
 		"reason": "Inappropriate Behavior",
-		"message": "We do not allow behavior on our platform that is seen as inappropriate on our platform.",
+		"message": "We do not allow behavior that is seen as inappropriate on our platform.",
 		"type": "BAN",
 		"display": "REDSTONE",
 		"offenses": [
