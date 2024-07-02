@@ -120,7 +120,7 @@
 		"reason": "Under 13",
 		"message": "Players must be at least 13 years old while using our platform. We do not accept appeals.",
 		"type": "BAN",
-		"display": "VILLAGER_EGG",
+		"display": "VILLAGER_SPAWN_EGG",
 		"offenses": [
 			"perm"
 		]
