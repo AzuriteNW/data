@@ -2,7 +2,7 @@
 	"Blacklisted_Mod": {
 		"ordinal": 0,
 		"reason": "Blacklisted Modifications",
-		"message": "We do not allow our players to utilize blacklisted modifications on our servers.",
+		"message": "We do not allow players to utilize modifications that grant an advantage over other players on our platform.",
 		"type": "BAN",
 		"display": "IRON_SWORD",
 		"offenses": [
@@ -12,108 +12,103 @@
 			"perm"
 		]
 	},
-	"Inappropriate": {
+	"Spam": {
 		"ordinal": 1,
-		"reason": "Inappropriate Behavior",
-		"message": "We do not allow behavior on our servers that is seen as inappropriate.",
-		"type": "BAN",
-		"display": "REDSTONE",
-		"offenses": [
-			"14d",
-			"30d",
-			"60d",
-			"90d",
-			"perm"
-		]
-	},
-	"Predatory": {
-		"ordinal": 2,
-		"reason": "Predatory Behavior/Explicit Content",
-		"message": "Predatory behavior or explicit content in any form is not permitted on our servers.",
-		"type": "BLACKLIST",
-		"display": "CREEPER_HEAD",
-		"offenses": [
-			"perm"
-		]
-	},
-	"Discrimination": {
-		"ordinal": 3,
-		"reason": "Discrimination",
-		"message": "We do not allow any discriminatory behavior on our servers, or toward other players.",
-		"type": "BAN",
-		"display": "SPIDER_EYE",
-		"offenses": [
-			"30d",
-			"60d",
-			"90d",
-			"perm"
-		]
-	},
-	"Trolling": {
-		"ordinal": 4,
-		"reason": "Trolling",
-		"message": "Any form of trolling is not permitted on our servers.",
+		"reason": "Spam",
+		"message": "You are not allowed to engage in spamming or flooding chats on our platform.",
 		"type": "MUTE",
-		"display": "EGG",
+		"display": "REPEATER",
 		"offenses": [
 			"12h",
 			"1d",
 			"3d",
 			"7d",
-			"14d",
-			"30d",
-			"perm"
-		]
-	},
-	"False_Info": {
-		"ordinal": 5,
-		"reason": "Spreading False Information",
-		"message": "Spreading false information knowingly is not permitted on our servers.",
-		"type": "MUTE",
-		"display": "OAK_SIGN",
-		"offenses": [
-			"6h",
-			"12h",
-			"1d",
-			"7d",
-			"14d",
-			"30d",
-			"perm"
+			"14d"
 		]
 	},
 	"Disrespect": {
-		"ordinal": 6,
+		"ordinal": 2,
 		"reason": "General Disrespect",
-		"message": "Disrespect towards players on our servers is not permitted.",
+		"message": "Disrespecting players on our platform is not permitted.",
 		"type": "MUTE",
-		"display": "MUSIC_DISC_CHIRP",
+		"display": "CACTUS",
+		"offenses": [
+			"7d",
+			"14d",
+			"30d"
+		]
+	},
+	"Instigating": {
+		"ordinal": 3,
+		"reason": "Instigating Drama",
+		"message": "You are not allowed to make posts or discuss topics that may start drama on our platform.",
+		"type": "MUTE",
+		"display": "CACTUS",
+		"offenses": [
+			"1d",
+			"3d",
+			"7d"
+		]
+	},
+	"Trolling": {
+		"ordinal": 4,
+		"reason": "Trolling",
+		"message": "We do not allow trolling on our platform.",
+		"type": "MUTE",
+		"display": "SCUTE",
+		"offenses": [
+			"1d",
+			"3d",
+			"7d"
+		]
+	},
+	"Advertisement": {
+		"ordinal": 5,
+		"reason": "Advertisement",
+		"message": "You are not allowed to redirect others to external platforms or servers on our platform.",
+		"type": "MUTE",
+		"display": "MINECART",
+		"offenses": [
+			"14d",
+			"30d",
+			"perm"
+		]
+	},
+	"Filter": {
+		"ordinal": 6,
+		"reason": "Bypassing Filter",
+		"message": "You are not allowed to use words or phrases in place of other blocked words that bypass our filter system.",
+		"type": "MUTE",
+		"display": "OAK_SIGN",
 		"offenses": [
 			"1d",
 			"7d",
 			"14d",
-			"30d",
-			"perm"
+			"30d"
 		]
 	},
-	"Harassment": {
+	"False_Info": {
 		"ordinal": 7,
-		"reason": "Harassment",
-		"message": "Harassing other players/and or staff is not permitted.",
-		"type": "BAN",
-		"display": "RED_DYE",
+		"reason": "False Information",
+		"message": "Spreading false information on our platform is not allowed.",
+		"type": "MUTE",
+		"display": "GOAT_HORN",
 		"offenses": [
+			"1d",
+			"3d",
+			"7d",
 			"14d",
-			"30d",
-			"perm"
+			"30d"
 		]
 	},
-	"Server_Ad": {
+	"Chat_Bot": {
 		"ordinal": 8,
-		"reason": "Server Advertisement",
-		"message": "Redirecting players to external servers off our network is not permitted.",
-		"type": "BAN",
-		"display": "BOW",
+		"reason": "Chat Bot",
+		"message": "Using chat bots on our server is not permitted.",
+		"type": "MUTE",
+		"display": "OBSERVER",
 		"offenses": [
+			"3d",
 			"7d",
 			"14d",
 			"30d",
@@ -123,19 +118,43 @@
 	"Under_13": {
 		"ordinal": 9,
 		"reason": "Under 13",
-		"message": "Players must be at least 13 years old to play on our servers. We do not accept appeals.",
+		"message": "Players must be at least 13 years old while using our platform. We do not accept appeals.",
 		"type": "BAN",
-		"display": "VILLAGER_SPAWN_EGG",
+		"display": "VILLAGER_EGG",
 		"offenses": [
 			"perm"
 		]
 	},
-	"Abusing_Support": {
+	"Harassment": {
 		"ordinal": 10,
-		"reason": "Abusing Support",
-		"message": "Abusing our support system, such as creating knowingly false reports or appeals, is not allowed.",
+		"reason": "Harassment",
+		"message": "Harassing other players/staff members on our server is not permitted.",
 		"type": "BAN",
-		"display": "WRITABLE_BOOK",
+		"display": "RED_DYE",
+		"offenses": [
+			"14d",
+			"30d",
+			"perm"
+		]
+	},
+	"Discrimination": {
+		"ordinal": 11,
+		"reason": "Discrimination",
+		"message": "We do not allow any discriminatory behavior on our platform.",
+		"type": "BAN",
+		"display": "SPIDER_EYE",
+		"offenses": [
+			"14d",
+			"30d",
+			"perm"
+		]
+	},
+	"Inappropriate": {
+		"ordinal": 12,
+		"reason": "Inappropriate Behavior",
+		"message": "We do not allow behavior on our platform that is seen as inappropriate on our platform.",
+		"type": "BAN",
+		"display": "REDSTONE",
 		"offenses": [
 			"7d",
 			"14d",
@@ -143,23 +162,138 @@
 			"perm"
 		]
 	},
+	"Predatory": {
+		"ordinal": 13,
+		"reason": "Predatory Behavior/Explicit Content",
+		"message": "Predatory behavior or explicit content, in any form, is not permitted on our servers.",
+		"type": "BLACKLIST",
+		"display": "CREEPER_HEAD",
+		"offenses": [
+			"perm"
+		]
+	},
+	"Self_Harm": {
+		"ordinal": 14,
+		"reason": "Encouraging Self Harm",
+		"message": "You are not allowed to encourage others to perform self harm on themselves on our platform.",
+		"type": "BAN",
+		"display": "LEAD",
+		"offenses": [
+			"perm"
+		]
+	},
+	"Mute_Evasion": {
+		"ordinal": 15,
+		"reason": "Mute Evasion",
+		"message": "You are not allowed to use an alternative account to evade a mute on another account. ",
+		"type": "BLACKLIST",
+		"display": "WRITTEN_BOOK",
+		"offenses": [
+			"perm"
+		]
+	},
+	"Ban_Evasion": {
+		"ordinal": 16,
+		"reason": "Ban Evasion",
+		"message": "You are not allowed to use an alternative account to evade a ban on another account.",
+		"type": "BLACKLIST",
+		"display": "ANVIL",
+		"offenses": [
+			"perm"
+		]
+	},
 	"Threats": {
-		"ordinal": 10,
+		"ordinal": 17,
 		"reason": "Threats",
-		"message": "Threatening players, whether joking or not, is not allowed on our network.",
+		"message": "You are not allowed to make any form of threats towards players on our platform.",
 		"type": "BLACKLIST",
 		"display": "COMPASS",
 		"offenses": [
 			"perm"
 		]
 	},
-	"Other_Perm": {
-		"ordinal": 11,
-		"reason": "Other - Permanent",
-		"message": "Your account has been suspended. Please contact appeals for more information.",
+	"Personal": {
+		"ordinal": 18,
+		"reason": "Releasing Personal Information",
+		"message": "Spreading personal information about yourself or others on our platform is not permitted.",
+		"type": "BLACKLIST",
+		"display": "RECOVERY_COMPASS",
+		"offenses": [
+			"perm"
+		]
+	},
+	"Exploits": {
+		"ordinal": 19,
+		"reason": "Bug Exploitation",
+		"message": "We do not allow players to use bugs or exploits on our platform.",
 		"type": "BAN",
-		"display": "REDSTONE_BLOCK",
-		"requiresPermission": true,
+		"display": "GLOW_INK_SAC",
+		"offenses": [
+			"3d",
+			"7d",
+			"14d",
+			"30d",
+			"perm"
+		]
+	},
+	"Username": {
+		"ordinal": 20,
+		"reason": "Inappropriate Username",
+		"message": "Your username violates our server rules. In order to play on our server, you must change your username and appeal.",
+		"type": "BAN",
+		"display": "NAME_TAG",
+		"offenses": [
+			"perm"
+		]
+	},
+	"Skin": {
+		"ordinal": 21,
+		"reason": "Inappropriate Skin",
+		"message": "Your skin violates our server rules. In order to play on our server, you must change your skin and appeal.",
+		"type": "BAN",
+		"display": "PLAYER_HEAD",
+		"offenses": [
+			"perm"
+		]
+	},
+	"Abusing_Support": {
+		"ordinal": 22,
+		"reason": "Abusing Staff/Support",
+		"message": "Abusing our support system or staff members is not permitted.",
+		"type": "BAN",
+		"display": "WRITABLE_BOOK",
+		"offenses": [
+			"perm"
+		]
+	},
+	"Staff_Imper": {
+		"ordinal": 23,
+		"reason": "Staff Impersonation",
+		"message": "You are not allowed to impersonate members of our staff team on our platform.",
+		"type": "MUTE",
+		"display": "ZOMBIE_HEAD",
+		"offenses": [
+			"14d",
+			"30d",
+			"perm"
+		]
+	},
+	"Fraud": {
+		"ordinal": 24,
+		"reason": "Chargeback/Fraudulent Charges",
+		"message": "Your account has been suspended for fraudulent charges or chargeback payments. Please contact our support team for further information.",
+		"type": "BLACKLIST",
+		"display": "EMERALD",
+		"offenses": [
+			"perm"
+		]
+	},
+	"Other": {
+		"ordinal": 25,
+		"reason": "Other",
+		"message": "Your account has been suspended from our platform. Please contact our support team for more information.",
+		"type": "BAN",
+		"display": "BOOKSHELF",
 		"offenses": [
 			"perm"
 		]
