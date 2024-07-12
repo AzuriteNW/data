@@ -128,8 +128,28 @@
 			"perm"
 		]
 	},
-	"Under_13": {
+	"Gameplay": {
 		"ordinal": 10,
+		"reason": "Gameplay Abuse",
+		"message": "Playing any of our gamemodes in their unintended way is not allowed. Please contact our support team if further clarification is required.",
+		"type": "BAN",
+		"display": "ENDER_EYE",
+		"offenses": [
+			"6h",
+			"12h",
+			"1d",
+			"3d",
+			"7d",
+			"14d",
+			"30d",
+			"45d",
+			"60d",
+			"90d",
+			"perm"
+		]
+	},
+	"Under_13": {
+		"ordinal": 11,
 		"reason": "Under 13",
 		"message": "Players must be at least 13 years old while using our platform. We do not accept appeals.",
 		"type": "BAN",
@@ -139,7 +159,7 @@
 		]
 	},
 	"Harassment": {
-		"ordinal": 11,
+		"ordinal": 12,
 		"reason": "Harassment",
 		"message": "Harassing other players/staff members on our server is not permitted.",
 		"type": "BAN",
@@ -151,7 +171,7 @@
 		]
 	},
 	"Discrimination": {
-		"ordinal": 12,
+		"ordinal": 13,
 		"reason": "Discrimination",
 		"message": "We do not allow any discriminatory behavior on our platform.",
 		"type": "BAN",
@@ -163,7 +183,7 @@
 		]
 	},
 	"Inappropriate": {
-		"ordinal": 13,
+		"ordinal": 14,
 		"reason": "Inappropriate Behavior",
 		"message": "We do not allow behavior that is seen as inappropriate on our platform.",
 		"type": "BAN",
@@ -176,7 +196,7 @@
 		]
 	},
 	"Predatory": {
-		"ordinal": 14,
+		"ordinal": 15,
 		"reason": "Predatory Behavior/Explicit Content",
 		"message": "Predatory behavior or explicit content, in any form, is not permitted on our servers.",
 		"type": "BLACKLIST",
@@ -186,7 +206,7 @@
 		]
 	},
 	"Self_Harm": {
-		"ordinal": 15,
+		"ordinal": 16,
 		"reason": "Encouraging Self Harm",
 		"message": "You are not allowed to encourage others to perform self harm on themselves on our platform.",
 		"type": "BAN",
@@ -196,7 +216,7 @@
 		]
 	},
 	"Mute_Evasion": {
-		"ordinal": 16,
+		"ordinal": 17,
 		"reason": "Mute Evasion",
 		"message": "You are not allowed to use an alternative account to evade a mute on another account. ",
 		"type": "BLACKLIST",
@@ -206,7 +226,7 @@
 		]
 	},
 	"Ban_Evasion": {
-		"ordinal": 17,
+		"ordinal": 18,
 		"reason": "Ban Evasion",
 		"message": "You are not allowed to use an alternative account to evade a ban on another account.",
 		"type": "BLACKLIST",
@@ -216,7 +236,7 @@
 		]
 	},
 	"Threats": {
-		"ordinal": 18,
+		"ordinal": 19,
 		"reason": "Threats",
 		"message": "You are not allowed to make any form of threats towards players on our platform.",
 		"type": "BLACKLIST",
@@ -226,7 +246,7 @@
 		]
 	},
 	"Personal": {
-		"ordinal": 19,
+		"ordinal": 20,
 		"reason": "Releasing Personal Information",
 		"message": "Spreading personal information about yourself or others on our platform is not permitted.",
 		"type": "BLACKLIST",
@@ -236,7 +256,7 @@
 		]
 	},
 	"Exploits": {
-		"ordinal": 20,
+		"ordinal": 21,
 		"reason": "Bug Exploitation",
 		"message": "We do not allow players to use bugs or exploits on our platform.",
 		"type": "BAN",
@@ -250,7 +270,7 @@
 		]
 	},
 	"Username": {
-		"ordinal": 21,
+		"ordinal": 22,
 		"reason": "Inappropriate Username",
 		"message": "Your username violates our server rules. In order to play on our server, you must change your username and appeal.",
 		"type": "BAN",
@@ -260,7 +280,7 @@
 		]
 	},
 	"Skin": {
-		"ordinal": 22,
+		"ordinal": 23,
 		"reason": "Inappropriate Skin",
 		"message": "Your skin violates our server rules. In order to play on our server, you must change your skin and appeal.",
 		"type": "BAN",
@@ -270,7 +290,7 @@
 		]
 	},
 	"Abusing_Support": {
-		"ordinal": 23,
+		"ordinal": 24,
 		"reason": "Abusing Staff/Support",
 		"message": "Abusing our support system or staff members is not permitted.",
 		"type": "BAN",
@@ -280,7 +300,7 @@
 		]
 	},
 	"Staff_Imper": {
-		"ordinal": 24,
+		"ordinal": 25,
 		"reason": "Staff Impersonation",
 		"message": "You are not allowed to impersonate members of our staff team on our platform.",
 		"type": "MUTE",
@@ -292,7 +312,7 @@
 		]
 	},
 	"Fraud": {
-		"ordinal": 25,
+		"ordinal": 26,
 		"reason": "Chargeback/Fraudulent Charges",
 		"message": "Your account has been suspended for fraudulent charges or chargeback payments. Please contact our support team for further information.",
 		"type": "BLACKLIST",
@@ -302,7 +322,7 @@
 		]
 	},
 	"Other": {
-		"ordinal": 26,
+		"ordinal": 27,
 		"reason": "Other",
 		"message": "Your account has been suspended from our platform. Please contact our support team for more information.",
 		"type": "BAN",
