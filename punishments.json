@@ -326,6 +326,7 @@
 	},
 	"Fraud": {
 		"ordinal": 27,
+		"requiresPermission": true,
 		"reason": "Chargeback/Fraudulent Charges",
 		"message": "Your account has been suspended for fraudulent charges or chargeback payments. Please contact our support team for further information.",
 		"type": "BLACKLIST",
