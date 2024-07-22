@@ -29,16 +29,15 @@
     "description": "Player has an inappropriate/offensive username or skin.",
     "display": "PLAYER_HEAD"
   },
-  "boosting": {
-    "ordinal": 5,
-    "reason": "Boosting",
-    "description": "Player is using an unintended method to boost their stats.",
-    "display": "BEACON"
-  },
   "bugs_exploits": {
-    "ordinal": 6,
+    "ordinal": 5,
     "reason": "Bugs/Exploits",
     "description": "Player is using a bug or exploit to gain an unfair advantage.",
     "display": "GLOW_INK_SAC"
+  },
+  "gameplay_abuse": {
+    "ordinal": 6,
+    "reason": "Gameplay Abuse",
+    "description": "Player is playing the game in an unintended way. (i.e. teaming, boosting, inappropriate item)"
   }
 }
