@@ -40,5 +40,11 @@
     "reason": "Gameplay Abuse",
     "description": "Player is playing the game in an unintended way. (i.e. teaming, boosting, inappropriate item)",
     "display": "ENDER_EYE"
+  },
+  "other": {
+    "ordinal": 7,
+    "reason": "Other",
+    "description": "Player is breaking a rule that is not listed here.",
+    "display": "COMPARATOR"
   }
 }
