@@ -38,6 +38,7 @@
   "gameplay_abuse": {
     "ordinal": 6,
     "reason": "Gameplay Abuse",
-    "description": "Player is playing the game in an unintended way. (i.e. teaming, boosting, inappropriate item)"
+    "description": "Player is playing the game in an unintended way. (i.e. teaming, boosting, inappropriate item)",
+    "display": "ENDER_EYE"
   }
 }
