@@ -93,6 +93,22 @@
 			"30d"
 		]
 	},
+	"Exc_Swearing": {
+		"ordinal": 7,
+		"reason": "Excessive Swearing",
+		"message": "You are not allowed to swear excessively on our platform.",
+		"type": "MUTE",
+		"display": "MANGROVE_SIGN",
+		"allowWarnings": true,
+		"offenses": [
+			"1d",
+			"3d",
+			"7d",
+			"14d",
+			"30d",
+			"perm"
+		]
+	},
 	"Filter": {
 		"ordinal": 7,
 		"reason": "Bypassing Filter",
