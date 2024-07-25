@@ -232,7 +232,6 @@
 		"type": "BAN",
 		"display": "SPIDER_EYE",
 		"offenses": [
-			"14d",
 			"30d",
 			"perm"
 		]
