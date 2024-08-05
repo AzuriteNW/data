@@ -377,6 +377,17 @@
 			"perm"
 		]
 	},
+	"Stolen_Account": {
+		"ordinal": 29,
+		"requiresPermission": true,
+		"reason": "Stolen Account",
+		"message": "Your account has been suspended for being a stolen account. Please contact our appeals team with valid evidence of ownership.",
+		"type": "BAN",
+		"display": "ENDERMAN_SPAWN_EGG",
+		"offenses": [
+			"perm"
+		]
+	},
 	"Other": {
 		"ordinal": 29,
 		"reason": "Other",
