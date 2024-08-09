@@ -351,6 +351,8 @@
 		"type": "BAN",
 		"display": "WRITABLE_BOOK",
 		"offenses": [
+			"14d",
+			"30d",
 			"perm"
 		]
 	},
@@ -388,12 +390,22 @@
 			"perm"
 		]
 	},
-	"Other": {
+	"Other_Ban": {
 		"ordinal": 29,
-		"reason": "Other",
+		"reason": "Other (Ban)",
 		"message": "Your account has been suspended from our platform. Please contact our support team for more information.",
 		"type": "BAN",
 		"display": "BOOKSHELF",
+		"offenses": [
+			"perm"
+		]
+	},
+	"Other_Blacklist": {
+		"ordinal": 30,
+		"reason": "Other (Blacklist)",
+		"message": "Your IP address has been blacklisted from our platform. Please contact our support team for more information.",
+		"type": "BLACKLIST",
+		"display": "ENCHANTED_BOOK",
 		"offenses": [
 			"perm"
 		]
