@@ -273,7 +273,7 @@
 		"ordinal": 19,
 		"reason": "Mute Evasion",
 		"message": "You are not allowed to use an alternative account to evade a mute on another account. ",
-		"type": "BLACKLIST",
+		"type": "MUTE",
 		"display": "WRITTEN_BOOK",
 		"offenses": [
 			"perm"
