@@ -272,7 +272,7 @@
 	"Mute_Evasion": {
 		"ordinal": 19,
 		"reason": "Mute Evasion",
-		"message": "You are not allowed to use an alternative account to evade a mute on another account. ",
+		"message": "You are not allowed to use an alternative account to evade a mute on another account.",
 		"type": "MUTE",
 		"display": "WRITTEN_BOOK",
 		"offenses": [
